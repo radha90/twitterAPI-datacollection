@@ -6,7 +6,7 @@ feelings and ideas on a variety of topics at Penn State. We can keep track of al
 This project includes R scripts for collecting data related to Penn State from twitter. 
 Twitter_PSU.R uses the R package "twitteR" for data collection.
 
-Twitter_GET_2.R is an automated script for data collection through direct REST API calls. Using this script we are making full advantage of the twitter search API. The twitteR package cannot be used to retreive every information provided by the twitter search API such as the user profile information.
+Twitter_GET_2.R is an automated script for data collection through direct REST API calls. Using this script we are making full advantage of the twitter search API. The twitteR package cannot be used to retreive every information provided by the twitter search API such as the user profile information. In this script tweets related to "gun policy" are retreived as an example.
 
 insertMongoPSU.py can be used to load json file containing tweets to Mongo DB.
 
