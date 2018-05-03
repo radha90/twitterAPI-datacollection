@@ -63,7 +63,7 @@ for(word in keywords){
     max_id <- lowest_id
     write(paste0("Current Total: ",tweetsCount),"gun.txt",append = TRUE)
     
-    mongo <- mongo(collection = "gunTweets",db="psgvGUN",url = "mongodb://radha:123456@128.118.137.123:27017/psgvGUN")
+    mongo <- mongo(collection = "gunTweets",db="psgvGUN",url = "******")
     mongo$insert(fromJSON(to_db))
     if(try==180){
       write(paste0("API calls ",try," for: ",word), "gun.txt",append = TRUE)
